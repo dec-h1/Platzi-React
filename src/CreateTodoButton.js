@@ -2,8 +2,10 @@ import React from 'react'
 import './CreateTodoButton.css';
 const CreateTodoButton = (props) => {
   return (
-    
-    <button className='CreateTodoButton'>+</button>
+
+    <button className='CreateTodoButton'
+      onClick={()=>console.log('clic')}
+    >+</button>
   )
 }
 
